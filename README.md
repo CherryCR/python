@@ -1,13 +1,1 @@
-import requests    
 
-from bs4 import BeautifulSoup as soup
-
-import urllib
-
-url=requests.get('[https://news.sina.com.cn/](https://news.sina.com.cn/)')
-
-url
-
-s=soup(url.content)
-
-s
